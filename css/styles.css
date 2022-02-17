@@ -1,0 +1,40 @@
+/*Основной background: #FFFFFF */
+/* Акцент цвет #F7941E */
+/* Основной цвет текста #000000 */
+/* Лого #231F20 */
+/* Второй цвет текста #FFFFFF */
+:root {
+  --primary-bg-color: #ffffff;
+  --logo-color: #231f20;
+  --secondary-text-color: #ffffff;
+  --accent-color: #f7941e;
+  --primary-color: #000000;
+}
+/* Main */
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-color);
+  background-color: var(--primary-bg-color);
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
